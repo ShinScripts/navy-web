@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: 'Fjalla One', sans-serif;
+    overflow-x: hidden;
+}
+
+@keyframes fade {
+    0% {
+        filter: opacity(0%);
+    }
+    100% {
+        filter: opacity(100%);
+    }
+}
+
+html {
+    background-image: url("https://cdn.discordapp.com/attachments/578671579362230312/726024756628815952/latest.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    width: 100%;
+    scroll-behavior: smooth;
+}
+
+.navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 90%;
+}
+
+.HC {
+    padding: 3% 10%;
+}
+
+.main h1 {
+    background-color: #374d74;
+    width: 35%;
+    border-radius: 0 25px 25px 0;
+    padding: 8px;
+    font-size: 17px;
+    margin: 4px;
+    font-weight: normal;
+}
+
+.main ul {
+    list-style: none;
+}
+
+.main li {
+    color: black;
+    background-color: #aaa;
+    width: 35%;
+    border-radius: 0 25px 25px 0;
+    padding: 8px;
+    font-size: 15px;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.main span {
+    background-color: black;
+    color: #aaa;
+    font-size: 17px;
+    margin-right: 3%;
+    padding: 8px;
+}
+
+.admin-part {
+    margin-left: 4%;
+}
+
+.admin-part h1 {
+    background-color: rgb(177, 149, 122);
+    color: black;
+}
+
+
+/* Text animation */
+
+text {
+    color: black;
+    display: none;
+    float: right;
+}
+
+#rank:hover text {
+    display: inline;
+    animation: fade 0.5s ease;
+}
+
+
+/* Where fleets start */
+
+.fleets div {
+    display: inline-flex;
+    width: 40%;
+    padding-left: 9%;
+}
+
+.first-fleet {
+    display: flex;
+    flex-direction: column;
+}
+
+.second-fleet {
+    display: flex;
+    flex-direction: column;
+}
+
+.first-fleet h1,
+.second-fleet h1 {
+    width: 70%;
+}
+
+.first-fleet li,
+.second-fleet li {
+    color: black;
+    background-color: #aaa;
+    width: 70%;
+    border-radius: 0 25px 25px 0;
+    padding: 8px;
+    font-size: 15px;
+    margin: 4px;
+    text-transform: uppercase;
+}
+
+.first-fleet-content,
+.second-fleet-content {
+    width: 100%;
+    margin-left: 8%;
+}
+
+content h2 {
+    background-color: rgb(168, 155, 53);
+    width: 62%;
+    border-radius: 0 25px 25px 0;
+    padding: 8px;
+    font-size: 17px;
+    margin: 4px;
+    color: black;
+    font-weight: normal;
+}
+
+content ul {
+    width: 88%;
+}
+
+
+/* Footer */
+
+.footer {
+    margin-top: 5%;
+    width: 100%;
+    text-align: center;
+    background-color: black;
+    min-height: 10vh;
+}
+
+.footer h3 {
+    display: flex;
+    justify-content: center;
+    padding-top: 2%;
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer p {
+    font-family: 'Nunito', sans-serif;
+}
+
+.footer:hover .backToTop {
+    transform: translateY(-20px);
+    opacity: 1;
+}
+
+.backToTop {
+    text-decoration: none;
+    display: block;
+    margin: 1.9% auto 0 auto;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid rgb(32, 32, 32);
+    display: block;
+    cursor: pointer;
+    color: black;
+    font-family: lato;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    width: 5%;
+    opacity: 0;
+    transition-property: filter, opacity, transform;
+    transition-duration: 0.3s, 1s, 1s;
+    transition-timing-function: ease;
+}
+
+.backToTop:hover {
+    filter: invert();
+}
+
+.backToTop a {
+    text-decoration: none;
+    color: white;
+}
