@@ -35,6 +35,19 @@ html {
     scroll-behavior: smooth;
 }
 
+body::-webkit-scrollbar {
+    width: 0.5rem;
+}
+
+body::-webkit-scrollbar-track {
+    background: rgb(15, 15, 15);
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: white;
+    border-radius: 20px;
+}
+
 .navbar {
     display: -webkit-box;
     display: -ms-flexbox;
