@@ -4,6 +4,7 @@
     color: white;
     font-family: 'Fjalla One', sans-serif;
     overflow-x: hidden;
+    user-select: none;
 }
 
 @keyframes fade {
@@ -12,6 +13,15 @@
     }
     100% {
         filter: opacity(100%);
+    }
+}
+
+@keyframes rgb {
+    from {
+        filter: hue-rotate(0deg);
+    }
+    to {
+        filter: hue-rotate(360deg);
     }
 }
 
@@ -204,4 +214,11 @@ content ul {
 .backToTop a {
     text-decoration: none;
     color: white;
+}
+
+rgb {
+    color: cyan;
+    padding-left: 4px;
+    animation: rgb 10s linear;
+    animation-iteration-count: infinite;
 }
