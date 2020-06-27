@@ -202,7 +202,7 @@ content ul {
 .backToTop {
     text-decoration: none;
     display: block;
-    margin: 1.9% auto 0 auto;
+    margin: 35px auto 0 auto;
     background-color: white;
     border-radius: 10px;
     border: 1px solid rgb(32, 32, 32);
@@ -213,7 +213,7 @@ content ul {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    width: 5%;
+    width: 100px;
     opacity: 0;
     transition-property: filter, opacity, transform;
     transition-duration: 0.3s, 1s, 1s;
@@ -234,4 +234,36 @@ rgb {
     padding-left: 4px;
     animation: rgb 10s linear;
     animation-iteration-count: infinite;
+}
+
+@media only screen and (max-width: 1200px) {
+    .fleets div {
+        display: block;
+        width: 80%;
+        padding-top: 5%;
+        margin: 0 auto;
+    }
+    #admin {
+        background-color: rgb(177, 149, 122);
+        color: black;
+    }
+    .main h1 {
+        background-color: #374d74;
+        width: 60%;
+        border-radius: 0 25px 25px 0;
+        padding: 8px;
+        font-size: 17px;
+        margin: 4px;
+        font-weight: normal;
+    }
+    .main li {
+        color: black;
+        background-color: #aaa;
+        width: 60%;
+        border-radius: 0 25px 25px 0;
+        padding: 8px;
+        font-size: 15px;
+        margin: 4px;
+        text-transform: uppercase;
+    }
 }
