@@ -276,6 +276,34 @@ rgb {
     }
 }
 
+@media only screen and (max-width: 1000px) {
+    .backToTop {
+        text-decoration: none;
+        display: block;
+        margin: 35px auto 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(32, 32, 32);
+        display: block;
+        cursor: pointer;
+        color: black;
+        font-family: lato;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+        opacity: 1;
+        transition-property: filter, opacity, transform;
+        transition-duration: 0.3s, 1s, 1s;
+        transition-timing-function: ease;
+        transform: translateY(-20px);
+    }
+    .footer:hover .backToTop {
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+}
+
 
 /* Phone Users */
 
@@ -288,5 +316,30 @@ rgb {
     }
     #rank:hover text {
         display: none;
+    }
+    .backToTop {
+        text-decoration: none;
+        display: block;
+        margin: 35px auto 0 auto;
+        background-color: white;
+        border-radius: 10px;
+        border: 1px solid rgb(32, 32, 32);
+        display: block;
+        cursor: pointer;
+        color: black;
+        font-family: lato;
+        font-size: 20px;
+        text-align: center;
+        padding: 10px;
+        width: 100px;
+        opacity: 1;
+        transition-property: filter, opacity, transform;
+        transition-duration: 0.3s, 1s, 1s;
+        transition-timing-function: ease;
+        transform: translateY(-20px);
+    }
+    .footer:hover .backToTop {
+        transform: translateY(-20px);
+        opacity: 1;
     }
 }
