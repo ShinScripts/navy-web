@@ -61,7 +61,7 @@ body::-webkit-scrollbar-thumb {
 
 .main h1 {
     background-color: #374d74;
-    width: 35%;
+    width: 40%;
     border-radius: 0 25px 25px 0;
     padding: 8px;
     font-size: 17px;
@@ -76,7 +76,7 @@ body::-webkit-scrollbar-thumb {
 .main li {
     color: black;
     background-color: #aaa;
-    width: 35%;
+    width: 40%;
     border-radius: 0 25px 25px 0;
     padding: 8px;
     font-size: 15px;
@@ -236,11 +236,14 @@ rgb {
     animation-iteration-count: infinite;
 }
 
-@media only screen and (max-width: 1200px) {
+
+/* Smaller devices */
+
+@media only screen and (max-width: 1350px) {
     .fleets div {
         display: block;
-        width: 80%;
-        padding-top: 5%;
+        width: 70%;
+        padding-top: 10%;
         margin: 0 auto;
     }
     #admin {
@@ -249,7 +252,7 @@ rgb {
     }
     .main h1 {
         background-color: #374d74;
-        width: 60%;
+        width: 80%;
         border-radius: 0 25px 25px 0;
         padding: 8px;
         font-size: 17px;
@@ -259,11 +262,28 @@ rgb {
     .main li {
         color: black;
         background-color: #aaa;
-        width: 60%;
+        width: 80%;
         border-radius: 0 25px 25px 0;
         padding: 8px;
         font-size: 15px;
         margin: 4px;
         text-transform: uppercase;
+    }
+    .first-fleet-content,
+    .second-fleet-content {
+        width: 100%;
+        margin: 0;
+    }
+}
+
+
+/* Phone Users */
+
+@media only screen and (max-width: 680px) {
+    .fleets div {
+        display: block;
+        width: 90%;
+        padding-top: 10%;
+        margin: 0 auto;
     }
 }
