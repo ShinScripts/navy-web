@@ -187,11 +187,11 @@ content ul {
     display: flex;
     justify-content: center;
     padding-top: 2%;
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Audiowide', cursive;
 }
 
 .footer p {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'Audiowide', cursive;
 }
 
 .footer:hover .backToTop {
@@ -231,9 +231,10 @@ content ul {
 
 rgb {
     color: cyan;
-    padding-left: 4px;
+    padding-left: 5px;
     animation: rgb 10s linear;
     animation-iteration-count: infinite;
+    font-family: 'Audiowide', cursive;
 }
 
 
