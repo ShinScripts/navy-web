@@ -213,7 +213,7 @@ content ul {
     font-size: 20px;
     text-align: center;
     padding: 10px;
-    width: 100px;
+    width: 80px;
     opacity: 0;
     transition-property: filter, opacity, transform;
     transition-duration: 0.3s, 1s, 1s;
@@ -291,7 +291,7 @@ rgb {
         font-size: 20px;
         text-align: center;
         padding: 10px;
-        width: 100px;
+        width: 80px;
         opacity: 1;
         transition-property: filter, opacity, transform;
         transition-duration: 0.3s, 1s, 1s;
@@ -331,7 +331,7 @@ rgb {
         font-size: 20px;
         text-align: center;
         padding: 10px;
-        width: 100px;
+        width: 80px;
         opacity: 1;
         transition-property: filter, opacity, transform;
         transition-duration: 0.3s, 1s, 1s;
