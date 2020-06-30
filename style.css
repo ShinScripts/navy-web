@@ -366,3 +366,13 @@ rgb {
         font-size: 18px;
     }
 }
+
+@media only screen and (max-width: 400px) {
+    .footer h3 {
+        font-size: 15px;
+    }
+    .footer p {
+        padding-top: 4px;
+        font-size: 13px;
+    }
+}
