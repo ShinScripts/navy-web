@@ -25,13 +25,20 @@
     }
 }
 
+#bg-vid {
+    z-index: -100;
+    opacity: 0.5;
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%;
+    min-height: 100%;
+}
+
 html {
-    background-image: url("https://cdn.discordapp.com/attachments/578671579362230312/726024756628815952/latest.png");
-    background-position: center;
-    background-size: cover;
-    background-attachment: fixed;
     width: 100%;
     scroll-behavior: smooth;
+    background-color: black;
 }
 
 body::-webkit-scrollbar {
